@@ -5,12 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExamRepository.Quiz
+namespace NiVeTech.ExamRepository.Exam
 {
     public interface IExamRepository
     {
-        List<NiVeTech.ExamEntity.Entity.Exam.ExamEntity> GetAll();
-        int CreateQuiz(NiVeTech.ExamEntity.Entity.Exam.ExamEntity quiz);
-        NiVeTech.ExamEntity.Entity.Exam.ExamEntity GetQuizById(int id);
+        List<NiVeTech.ExamEntity.Entity.Exam.ExamEntity> GetExamList();
+        int CreateExam(NiVeTech.ExamEntity.Entity.Exam.ExamEntity exam);
+        NiVeTech.ExamEntity.Entity.Exam.ExamEntity GetExamById(int examId);
+        NiVeTech.ExamEntity.Entity.Exam.ExamEntity UpdateExam(NiVeTech.ExamEntity.Entity.Exam.ExamEntity exam);
+        void DeleteExamById(int examId);
     }
 }

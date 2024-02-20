@@ -1,7 +1,7 @@
-﻿using ExamEntity.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using NiVeTech.ExamEntity.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;

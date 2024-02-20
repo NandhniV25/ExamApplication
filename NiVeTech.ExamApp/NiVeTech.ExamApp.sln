@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamApi", "ExamApi\ExamApi.csproj", "{8562C2BD-A4DE-458E-B6CF-BCD46932EDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NiVeTech.ExamApi", "ExamApi\NiVeTech.ExamApi.csproj", "{8562C2BD-A4DE-458E-B6CF-BCD46932EDB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamEntity", "ExamEntity\ExamEntity.csproj", "{D97F5661-02CA-4C9D-BFAE-923BA8AD2A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NiVeTech.ExamEntity", "ExamEntity\NiVeTech.ExamEntity.csproj", "{D97F5661-02CA-4C9D-BFAE-923BA8AD2A00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NiVeTech.ExamRepository", "ExamRepository\NiVeTech.ExamRepository.csproj", "{2ACEE81B-FAE5-4246-B904-C3217D470B63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D97F5661-02CA-4C9D-BFAE-923BA8AD2A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D97F5661-02CA-4C9D-BFAE-923BA8AD2A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D97F5661-02CA-4C9D-BFAE-923BA8AD2A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACEE81B-FAE5-4246-B904-C3217D470B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACEE81B-FAE5-4246-B904-C3217D470B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACEE81B-FAE5-4246-B904-C3217D470B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACEE81B-FAE5-4246-B904-C3217D470B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

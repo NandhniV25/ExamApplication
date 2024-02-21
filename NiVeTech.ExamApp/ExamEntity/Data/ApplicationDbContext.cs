@@ -14,5 +14,6 @@ namespace NiVeTech.ExamEntity.Data
         { 
         }
         public DbSet<NiVeTech.ExamEntity.Entity.Exam.ExamEntity> Exams { get; set; }
+        public DbSet<NiVeTech.ExamEntity.Entity.Question.QuestionEntity> Questions { get; set; }
     }
 }

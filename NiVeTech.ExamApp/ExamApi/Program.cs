@@ -2,8 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using NiVeTec.ExamRepository.Exam;
 using NiVeTech.ExamApi.AutoMapper;
 using NiVeTech.ExamApi.Services.Exam;
+using NiVeTech.ExamApi.Services.Question;
 using NiVeTech.ExamEntity.Data;
 using NiVeTech.ExamRepository.Exam;
+using NiVeTech.ExamRepository.Question;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,9 @@ builder.Services.AddAutoMapper(typeof(MapperProfile));
 
 builder.Services.AddTransient<IExamService, ExamService>();
 builder.Services.AddTransient<IExamRepository, ExamRepository>();
+
+builder.Services.AddTransient<IQuestionService, QuestionService>();
+builder.Services.AddTransient<IQuestionRepository, QuestionRepository>();
 
 
 #region Configure Database

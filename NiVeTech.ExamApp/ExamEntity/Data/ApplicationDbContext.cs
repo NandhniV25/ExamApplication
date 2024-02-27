@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NiVeTech.ExamEntity.Entity.Option;
 
 namespace NiVeTech.ExamEntity.Data
 {
@@ -15,5 +16,6 @@ namespace NiVeTech.ExamEntity.Data
         }
         public DbSet<NiVeTech.ExamEntity.Entity.Exam.ExamEntity> Exams { get; set; }
         public DbSet<NiVeTech.ExamEntity.Entity.Question.QuestionEntity> Questions { get; set; }
+        public DbSet<OptionEntity> Options { get; set; }
     }
 }

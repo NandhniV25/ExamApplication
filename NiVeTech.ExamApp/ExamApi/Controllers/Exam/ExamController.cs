@@ -24,16 +24,16 @@ namespace NiVeTech.ExamApi.Controllers.Exam
         {
             return _examService.GetExamList();
         }
-        [HttpGet("{id:int}")]
-        public ActionResult<ExamModel> GetExamById(int id)
-        {
-            return _examService.GetExamById(id);
-        }
-        [HttpPut("/update")]
-        public ActionResult<ExamModel> UpdateExam(ExamModel examModel)
-        {
-            return _examService.UpdateExam(examModel);
-        }
+        //[HttpGet("{id:int}")]
+        //public ActionResult<ExamModel> GetExamById(int id)
+        //{
+        //    return _examService.GetExamById(id);
+        //}
+        //[HttpPut("/update")]
+        //public ActionResult<ExamModel> UpdateExam(ExamModel examModel)
+        //{
+        //    return _examService.UpdateExam(examModel);
+        //}
         [HttpDelete("{id:int}")]
         public ActionResult<string> DeleteExamById(int id) 
         {

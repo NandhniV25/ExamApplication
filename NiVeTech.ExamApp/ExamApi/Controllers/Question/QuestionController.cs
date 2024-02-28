@@ -25,16 +25,16 @@ namespace NiVeTech.ExamApi.Controllers.Question
         {
             return _questionService.GetQuestionList();
         }
-        [HttpGet("{id:int}")]
-        public ActionResult<QuestionModel> GetQuestionById(int id)
-        {
-            return _questionService.GetQuestionById(id);
-        }
-        [HttpPut("/question/update")]
-        public ActionResult<QuestionModel> UpdateQuestion(QuestionModel questionModel)
-        {
-            return _questionService.UpdateQuestion(questionModel);
-        }
+        //[HttpGet("{id:int}")]
+        //public ActionResult<QuestionModel> GetQuestionById(int id)
+        //{
+        //    return _questionService.GetQuestionById(id);
+        //}
+        //[HttpPut("/question/update")]
+        //public ActionResult<QuestionModel> UpdateQuestion(QuestionModel questionModel)
+        //{
+        //    return _questionService.UpdateQuestion(questionModel);
+        //}
         [HttpDelete("{id:int}")]
         public ActionResult<string> DeleteQuestionById(int id)
         {

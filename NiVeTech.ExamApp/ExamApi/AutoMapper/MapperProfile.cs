@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using NiVeTech.ExamApi.Models.Exam;
+using NiVeTech.ExamApi.Models.Options;
 using NiVeTech.ExamApi.Models.Question;
+using NiVeTech.ExamEntity.Entity.Option;
 using NiVeTech.ExamEntity.Entity.Question;
 
 namespace NiVeTech.ExamApi.AutoMapper
@@ -16,6 +18,10 @@ namespace NiVeTech.ExamApi.AutoMapper
             // Question
             CreateMap<QuestionModel, QuestionEntity>().ReverseMap();
             CreateMap<CreateQuestionModel, QuestionEntity>().ReverseMap();
+
+            //Option
+            CreateMap<OptionModel, OptionEntity>().ReverseMap();
+            CreateMap<CreateOptionModel, OptionEntity>().ReverseMap();
         }
     }
 }
